@@ -109,10 +109,10 @@ const LoanDossier = ({ loanId, onClose }: Props) => {
 
             {/* Under Review state */}
             {loan.status === "Under Review" && (
-              <div className="rounded-md bg-navy-light/40 p-8 flex flex-col items-center justify-center gap-3">
-                <Loader2 size={28} className="animate-spin text-gold" />
-                <p className="text-sm text-navy-foreground/80">AI analysis in progress...</p>
-                <p className="text-xs text-navy-foreground/50">
+              <div className="rounded-md bg-muted/60 p-8 flex flex-col items-center justify-center gap-3">
+                <Loader2 size={28} className="animate-spin text-accent" />
+                <p className="text-sm text-foreground/80">AI analysis in progress...</p>
+                <p className="text-xs text-muted-foreground">
                   Submitted {formatDate(loan.dateSubmitted)} · Estimated completion: 2-4 hours
                 </p>
               </div>
