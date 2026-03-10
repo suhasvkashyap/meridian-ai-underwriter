@@ -251,8 +251,8 @@ const LoanDossier = ({ loanId, onClose }: Props) => {
 
 const InfoRow = ({ label, value }: { label: string; value: string }) => (
   <div className="flex justify-between gap-2">
-    <span className="text-xs text-navy-foreground/50">{label}</span>
-    <span className="text-xs font-medium text-navy-foreground text-right">{value}</span>
+    <span className="text-xs text-muted-foreground">{label}</span>
+    <span className="text-xs font-medium text-foreground text-right">{value}</span>
   </div>
 );
 
