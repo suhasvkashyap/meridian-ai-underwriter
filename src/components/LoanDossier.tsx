@@ -51,7 +51,7 @@ const LoanDossier = ({ loanId, onClose }: Props) => {
         animate={{ x: 0 }}
         exit={{ x: "100%" }}
         transition={{ type: "spring", damping: 30, stiffness: 300 }}
-        className="fixed right-0 top-0 z-50 flex h-full w-full max-w-4xl flex-col bg-navy shadow-2xl overflow-hidden"
+        className="fixed right-0 top-0 z-50 flex h-full w-full max-w-4xl flex-col bg-card shadow-2xl overflow-hidden"
       >
         {/* Header */}
         <div className="flex items-center justify-between border-b border-navy-light/30 px-6 py-4">
