@@ -51,12 +51,12 @@ const LoanDossier = ({ loanId, onClose }: Props) => {
         animate={{ x: 0 }}
         exit={{ x: "100%" }}
         transition={{ type: "spring", damping: 30, stiffness: 300 }}
-        className="fixed right-0 top-0 z-50 flex h-full w-full max-w-4xl flex-col bg-navy shadow-2xl overflow-hidden"
+        className="fixed right-0 top-0 z-50 flex h-full w-full max-w-4xl flex-col bg-card shadow-2xl overflow-hidden"
       >
         {/* Header */}
-        <div className="flex items-center justify-between border-b border-navy-light/30 px-6 py-4">
+        <div className="flex items-center justify-between border-b border-border px-6 py-4">
           <div className="flex items-center gap-3">
-            <h2 className="text-lg font-semibold text-navy-foreground">{loan.id}</h2>
+            <h2 className="text-lg font-semibold text-foreground">{loan.id}</h2>
             <span
               className={
                 loan.status === "Approved"
@@ -71,7 +71,7 @@ const LoanDossier = ({ loanId, onClose }: Props) => {
               {loan.status}
             </span>
           </div>
-          <button onClick={onClose} className="text-navy-foreground/60 hover:text-navy-foreground transition-colors">
+          <button onClick={onClose} className="text-muted-foreground hover:text-foreground transition-colors">
             <X size={20} />
           </button>
         </div>
@@ -82,8 +82,8 @@ const LoanDossier = ({ loanId, onClose }: Props) => {
             {/* Top info grid */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               {/* Applicant details */}
-              <div className="rounded-md bg-navy-light/40 p-4 space-y-2.5">
-                <h3 className="text-xs font-semibold uppercase tracking-wider text-gold">Applicant Details</h3>
+              <div className="rounded-md bg-muted/60 p-4 space-y-2.5">
+                <h3 className="text-xs font-semibold uppercase tracking-wider text-accent">Applicant Details</h3>
                 <InfoRow label="Business Name" value={loan.businessName} />
                 <InfoRow label="Industry" value={loan.businessType} />
                 <InfoRow label="Years in Operation" value={String(loan.yearsInOperation)} />
@@ -94,8 +94,8 @@ const LoanDossier = ({ loanId, onClose }: Props) => {
                 <InfoRow label="Existing Debt" value={loan.existingDebt} />
               </div>
               {/* Loan details */}
-              <div className="rounded-md bg-navy-light/40 p-4 space-y-2.5">
-                <h3 className="text-xs font-semibold uppercase tracking-wider text-gold">Loan Details</h3>
+              <div className="rounded-md bg-muted/60 p-4 space-y-2.5">
+                <h3 className="text-xs font-semibold uppercase tracking-wider text-accent">Loan Details</h3>
                 <InfoRow label="Amount Requested" value={formatCurrency(loan.loanAmount)} />
                 <InfoRow label="Purpose" value={loan.loanPurpose} />
                 <InfoRow label="Term" value={`${loan.loanTermYears} years`} />
@@ -109,10 +109,10 @@ const LoanDossier = ({ loanId, onClose }: Props) => {
 
             {/* Under Review state */}
             {loan.status === "Under Review" && (
-              <div className="rounded-md bg-navy-light/40 p-8 flex flex-col items-center justify-center gap-3">
-                <Loader2 size={28} className="animate-spin text-gold" />
-                <p className="text-sm text-navy-foreground/80">AI analysis in progress...</p>
-                <p className="text-xs text-navy-foreground/50">
+              <div className="rounded-md bg-muted/60 p-8 flex flex-col items-center justify-center gap-3">
+                <Loader2 size={28} className="animate-spin text-accent" />
+                <p className="text-sm text-foreground/80">AI analysis in progress...</p>
+                <p className="text-xs text-muted-foreground">
                   Submitted {formatDate(loan.dateSubmitted)} · Estimated completion: 2-4 hours
                 </p>
               </div>
@@ -251,8 +251,8 @@ const LoanDossier = ({ loanId, onClose }: Props) => {
 
 const InfoRow = ({ label, value }: { label: string; value: string }) => (
   <div className="flex justify-between gap-2">
-    <span className="text-xs text-navy-foreground/50">{label}</span>
-    <span className="text-xs font-medium text-navy-foreground text-right">{value}</span>
+    <span className="text-xs text-muted-foreground">{label}</span>
+    <span className="text-xs font-medium text-foreground text-right">{value}</span>
   </div>
 );
 
