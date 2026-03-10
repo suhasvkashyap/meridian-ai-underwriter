@@ -71,7 +71,7 @@ const LoanDossier = ({ loanId, onClose }: Props) => {
               {loan.status}
             </span>
           </div>
-          <button onClick={onClose} className="text-navy-foreground/60 hover:text-navy-foreground transition-colors">
+          <button onClick={onClose} className="text-muted-foreground hover:text-foreground transition-colors">
             <X size={20} />
           </button>
         </div>
