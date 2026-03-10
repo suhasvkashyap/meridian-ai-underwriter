@@ -94,8 +94,8 @@ const LoanDossier = ({ loanId, onClose }: Props) => {
                 <InfoRow label="Existing Debt" value={loan.existingDebt} />
               </div>
               {/* Loan details */}
-              <div className="rounded-md bg-navy-light/40 p-4 space-y-2.5">
-                <h3 className="text-xs font-semibold uppercase tracking-wider text-gold">Loan Details</h3>
+              <div className="rounded-md bg-muted/60 p-4 space-y-2.5">
+                <h3 className="text-xs font-semibold uppercase tracking-wider text-accent">Loan Details</h3>
                 <InfoRow label="Amount Requested" value={formatCurrency(loan.loanAmount)} />
                 <InfoRow label="Purpose" value={loan.loanPurpose} />
                 <InfoRow label="Term" value={`${loan.loanTermYears} years`} />
