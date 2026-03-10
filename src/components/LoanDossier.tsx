@@ -82,8 +82,8 @@ const LoanDossier = ({ loanId, onClose }: Props) => {
             {/* Top info grid */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               {/* Applicant details */}
-              <div className="rounded-md bg-navy-light/40 p-4 space-y-2.5">
-                <h3 className="text-xs font-semibold uppercase tracking-wider text-gold">Applicant Details</h3>
+              <div className="rounded-md bg-muted/60 p-4 space-y-2.5">
+                <h3 className="text-xs font-semibold uppercase tracking-wider text-accent">Applicant Details</h3>
                 <InfoRow label="Business Name" value={loan.businessName} />
                 <InfoRow label="Industry" value={loan.businessType} />
                 <InfoRow label="Years in Operation" value={String(loan.yearsInOperation)} />
