@@ -54,9 +54,9 @@ const LoanDossier = ({ loanId, onClose }: Props) => {
         className="fixed right-0 top-0 z-50 flex h-full w-full max-w-4xl flex-col bg-card shadow-2xl overflow-hidden"
       >
         {/* Header */}
-        <div className="flex items-center justify-between border-b border-navy-light/30 px-6 py-4">
+        <div className="flex items-center justify-between border-b border-border px-6 py-4">
           <div className="flex items-center gap-3">
-            <h2 className="text-lg font-semibold text-navy-foreground">{loan.id}</h2>
+            <h2 className="text-lg font-semibold text-foreground">{loan.id}</h2>
             <span
               className={
                 loan.status === "Approved"
