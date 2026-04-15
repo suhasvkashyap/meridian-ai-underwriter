@@ -29,7 +29,7 @@ const LoanTable = ({ onSelect, selectedId }: Props) => {
             onClick={() => setActiveTab(tab)}
             className={`px-3 py-2 text-sm font-medium border-b-2 transition-colors -mb-px ${
               activeTab === tab
-                ? "border-gold text-foreground"
+                ? "border-brand text-foreground"
                 : "border-transparent text-muted-foreground hover:text-foreground"
             }`}
           >
@@ -63,7 +63,7 @@ const LoanTable = ({ onSelect, selectedId }: Props) => {
                   <div className="flex items-center gap-2">
                     {loan.businessName}
                     {loan.status === "Under Review" && (
-                      <span className="inline-block h-2 w-2 rounded-full bg-gold animate-pulse-dot" />
+                      <span className="inline-block h-2 w-2 rounded-full bg-brand animate-pulse-dot" />
                     )}
                   </div>
                 </td>

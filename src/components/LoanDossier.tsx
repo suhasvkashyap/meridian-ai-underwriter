@@ -83,7 +83,7 @@ const LoanDossier = ({ loanId, onClose }: Props) => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               {/* Applicant details */}
               <div className="rounded-md bg-muted/60 p-4 space-y-2.5">
-                <h3 className="text-xs font-semibold uppercase tracking-wider text-accent">Applicant Details</h3>
+                <h3 className="text-xs font-semibold uppercase tracking-wider text-brand">Applicant Details</h3>
                 <InfoRow label="Business Name" value={loan.businessName} />
                 <InfoRow label="Industry" value={loan.businessType} />
                 <InfoRow label="Years in Operation" value={String(loan.yearsInOperation)} />
@@ -95,7 +95,7 @@ const LoanDossier = ({ loanId, onClose }: Props) => {
               </div>
               {/* Loan details */}
               <div className="rounded-md bg-muted/60 p-4 space-y-2.5">
-                <h3 className="text-xs font-semibold uppercase tracking-wider text-accent">Loan Details</h3>
+                <h3 className="text-xs font-semibold uppercase tracking-wider text-brand">Loan Details</h3>
                 <InfoRow label="Amount Requested" value={formatCurrency(loan.loanAmount)} />
                 <InfoRow label="Purpose" value={loan.loanPurpose} />
                 <InfoRow label="Term" value={`${loan.loanTermYears} years`} />
@@ -110,7 +110,7 @@ const LoanDossier = ({ loanId, onClose }: Props) => {
             {/* Under Review state */}
             {loan.status === "Under Review" && (
               <div className="rounded-md bg-muted/60 p-8 flex flex-col items-center justify-center gap-3">
-                <Loader2 size={28} className="animate-spin text-accent" />
+                <Loader2 size={28} className="animate-spin text-brand" />
                 <p className="text-sm text-foreground/80">AI analysis in progress...</p>
                 <p className="text-xs text-muted-foreground">
                   Submitted {formatDate(loan.dateSubmitted)} · Estimated completion: 2-4 hours
@@ -171,13 +171,13 @@ const LoanDossier = ({ loanId, onClose }: Props) => {
                 <ul className="space-y-3">
                   {loan.missingDocs.map((doc, i) => (
                     <li key={i} className="flex gap-2.5 text-sm text-foreground/80">
-                      <input type="checkbox" disabled className="mt-1 shrink-0 accent-gold" />
+                      <input type="checkbox" disabled className="mt-1 shrink-0 accent-brand" />
                       <span>{doc}</span>
                     </li>
                   ))}
                 </ul>
                 <div className="mt-4 flex gap-2">
-                  <button className="inline-flex items-center gap-1.5 rounded bg-gold px-3 py-1.5 text-sm font-medium text-navy transition-colors hover:bg-gold-dark">
+                  <button className="inline-flex items-center gap-1.5 rounded bg-brand px-3 py-1.5 text-sm font-medium text-white transition-colors hover:bg-brand-dark">
                     <Send size={14} />
                     Send Request to Applicant
                   </button>
@@ -193,7 +193,7 @@ const LoanDossier = ({ loanId, onClose }: Props) => {
             {loan.status === "Rejected" && !showRAG && !ragLoading && (
               <button
                 onClick={handleExplain}
-                className="inline-flex items-center gap-2 rounded bg-gold px-4 py-2.5 text-sm font-semibold text-navy transition-all hover:bg-gold-dark hover:shadow-lg"
+                className="inline-flex items-center gap-2 rounded bg-brand px-4 py-2.5 text-sm font-semibold text-white transition-all hover:bg-brand-dark hover:shadow-lg"
               >
                 <Sparkles size={16} />
                 Explain with Full Context

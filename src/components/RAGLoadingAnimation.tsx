@@ -57,7 +57,7 @@ const RAGLoadingAnimation = ({ onComplete }: Props) => {
               {isComplete ? (
                 <CheckCircle size={16} className="text-success shrink-0" />
               ) : isActive ? (
-                <Loader2 size={16} className="animate-spin text-gold shrink-0" />
+                <Loader2 size={16} className="animate-spin text-brand shrink-0" />
               ) : null}
               <span className={isComplete ? "text-muted-foreground line-through" : "text-foreground"}>
                 {step}

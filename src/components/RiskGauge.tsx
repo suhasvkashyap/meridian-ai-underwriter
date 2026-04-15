@@ -15,7 +15,7 @@ const RiskGauge = ({ score, status }: RiskGaugeProps) => {
   }, [score]);
 
   const radius = 54;
-  const circumference = Math.PI * radius; // semi-circle
+  const circumference = Math.PI * radius;
   const progress = (animatedScore / 100) * circumference;
 
   let color: string;
@@ -28,7 +28,7 @@ const RiskGauge = ({ score, status }: RiskGaugeProps) => {
     label = "Low Risk";
     sublabel = "Default Probability: Minimal";
   } else if (score <= 65) {
-    color = "#D4A843";
+    color = "#F59E0B";
     label = "Moderate Risk";
     sublabel = "Assessment Incomplete";
   } else {
@@ -40,7 +40,6 @@ const RiskGauge = ({ score, status }: RiskGaugeProps) => {
   return (
     <div className="flex flex-col items-center gap-2">
       <svg width="140" height="80" viewBox="0 0 140 80">
-        {/* Background arc */}
         <path
           d="M 10 75 A 54 54 0 0 1 130 75"
           fill="none"
@@ -49,7 +48,6 @@ const RiskGauge = ({ score, status }: RiskGaugeProps) => {
           strokeLinecap="round"
           strokeDasharray={isDashed ? "6 4" : "none"}
         />
-        {/* Progress arc */}
         <path
           d="M 10 75 A 54 54 0 0 1 130 75"
           fill="none"
