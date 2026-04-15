@@ -53,21 +53,26 @@ export default {
           foreground: "hsl(var(--card-foreground))",
         },
         navy: {
-          DEFAULT: "#0A2647",
-          light: "#144272",
+          DEFAULT: "#0F172A",
+          light: "#1E293B",
           foreground: "#FFFFFF",
         },
+        brand: {
+          DEFAULT: "#DC3545",
+          light: "#E8606D",
+          dark: "#C82333",
+        },
         gold: {
-          DEFAULT: "#D4A843",
-          light: "#E8C97A",
-          dark: "#B8922E",
+          DEFAULT: "#DC3545",
+          light: "#E8606D",
+          dark: "#C82333",
         },
         success: {
           DEFAULT: "#16A34A",
           light: "rgba(236, 253, 245, 0.6)",
         },
         warning: {
-          DEFAULT: "#D4A843",
+          DEFAULT: "#F59E0B",
           light: "rgba(255, 251, 235, 0.7)",
         },
         danger: {

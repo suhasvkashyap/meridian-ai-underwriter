@@ -19,7 +19,7 @@ const Index = () => {
         )}
       </AnimatePresence>
       <footer className="border-t border-border px-6 py-3 text-center text-xs text-muted-foreground">
-        © 2026 Meridian National Bank. AI-powered underwriting system. For authorized personnel only.
+        © 2026 Fed Aura Capital. AI-powered underwriting system. For authorized personnel only.
       </footer>
     </div>
   );

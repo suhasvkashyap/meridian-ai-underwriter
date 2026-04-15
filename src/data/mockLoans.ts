@@ -55,7 +55,7 @@ export const loanApplications: LoanApplication[] = [
       "Collateral coverage at 145% of loan value (minimum 80% required)",
       "Industry sector (commercial construction) shows strong backlog and below-average default rates"
     ],
-    creditMemo: `Policy Alignment: This application meets or exceeds all requirements under Meridian National Bank's Commercial Lending Policy (Rev. 2025-Q4). All key metrics fall within acceptable parameters for the requested loan tier.
+    creditMemo: `Policy Alignment: This application meets or exceeds all requirements under Fed Aura Capital's Commercial Lending Policy (Rev. 2025-Q4). All key metrics fall within acceptable parameters for the requested loan tier.
 
 Financial Health: Pacific Ridge Construction demonstrates exceptionally strong financial fundamentals with 15% compound annual revenue growth over three fiscal years. Operating margins stand at 14.0%, with a robust current ratio of 2.8. Cash flow analysis indicates a projected DSCR of 2.6x, providing substantial debt service headroom well above the 1.25x minimum.
 
@@ -63,7 +63,7 @@ Market Position: The applicant operates in the commercial construction sector, w
 
 Recommendation: Approve. The application presents a strong credit profile with diversified revenue streams, substantial collateral coverage, and favorable market positioning. Suggested terms: Prime + 1.25%, 7-year term with annual review.`,
     ragSources: [
-      "Meridian National Bank Commercial Lending Policy v2025-Q4 (Sections 2.1, 3.1, 4.2)",
+      "Fed Aura Capital Commercial Lending Policy v2025-Q4 (Sections 2.1, 3.1, 4.2)",
       "Pacific Ridge Construction 10-K Filing — FY2025",
       "Pacific Ridge Construction Quarterly Financial Statements — Q1-Q4 2025",
       "Industry Risk Report — Associated General Contractors of America, Q4 2025",
@@ -97,7 +97,7 @@ Recommendation: Approve. The application presents a strong credit profile with d
       "Collateral coverage at 160% of loan value (well above 80% minimum)",
       "12-year operating history demonstrates business stability and resilience"
     ],
-    creditMemo: `Policy Alignment: This application satisfies all lending criteria under Meridian National Bank's Commercial Lending Policy (Rev. 2025-Q4). The applicant's financial profile places this loan in the low-risk tier for food manufacturing sector lending.
+    creditMemo: `Policy Alignment: This application satisfies all lending criteria under Fed Aura Capital's Commercial Lending Policy (Rev. 2025-Q4). The applicant's financial profile places this loan in the low-risk tier for food manufacturing sector lending.
 
 Financial Health: Greenfield Organic Foods has maintained a strong growth trajectory with 12% compound annual revenue growth. The company's operating margin of 14.0% exceeds the sector median of 9.8%. Current ratio of 2.1 and quick ratio of 1.6 indicate healthy liquidity. Projected DSCR of 2.3x provides comfortable coverage above the 1.25x threshold.
 
@@ -105,7 +105,7 @@ Market Position: The organic food manufacturing sector continues to outperform c
 
 Recommendation: Approve. Strong credit fundamentals, growing market position, and experienced management team present an attractive lending opportunity. Suggested terms: Prime + 1.50%, 10-year term with annual review.`,
     ragSources: [
-      "Meridian National Bank Commercial Lending Policy v2025-Q4 (Sections 2.1, 3.1)",
+      "Fed Aura Capital Commercial Lending Policy v2025-Q4 (Sections 2.1, 3.1)",
       "Greenfield Organic Foods 10-K Filing — FY2025",
       "Greenfield Organic Foods Quarterly Statements — Q1-Q4 2025",
       "Organic Trade Association Annual Industry Report 2025",
@@ -139,7 +139,7 @@ Recommendation: Approve. Strong credit fundamentals, growing market position, an
       "Collateral coverage at 160% of loan value (minimum 80% required)",
       "Established contracts with three major regional hospital networks"
     ],
-    creditMemo: `Policy Alignment: This application exceeds all requirements under Meridian National Bank's Commercial Lending Policy (Rev. 2025-Q4). The applicant qualifies for preferred rate tier based on credit metrics and sector classification.
+    creditMemo: `Policy Alignment: This application exceeds all requirements under Fed Aura Capital's Commercial Lending Policy (Rev. 2025-Q4). The applicant qualifies for preferred rate tier based on credit metrics and sector classification.
 
 Financial Health: Summit Healthcare Partners demonstrates exceptional financial stability with 22% revenue growth over the past three fiscal years. Operating margins of 14.2% reflect efficient practice management. The current ratio of 2.4 and DSCR of 2.1x indicate strong capacity to service additional debt. Accounts receivable aging shows 94% collection within 60 days, consistent with well-managed healthcare billing operations.
 
@@ -147,7 +147,7 @@ Market Position: The healthcare services sector continues to show resilient dema
 
 Recommendation: Approve. The application presents a strong credit profile with diversified revenue streams, adequate collateral, and favorable market positioning. Suggested terms: Prime + 1.00%, 10-year term with annual review.`,
     ragSources: [
-      "Meridian National Bank Commercial Lending Policy v2025-Q4 (Sections 2.1, 3.1, 4.2)",
+      "Fed Aura Capital Commercial Lending Policy v2025-Q4 (Sections 2.1, 3.1, 4.2)",
       "Summit Healthcare Partners 10-K Filing — FY2025",
       "Summit Healthcare Partners Quarterly Statements — Q1-Q4 2025",
       "Bureau of Labor Statistics — Healthcare Employment Projections 2025-2030",
@@ -181,7 +181,7 @@ Recommendation: Approve. The application presents a strong credit profile with d
       "Collateral coverage at 150% of loan value (above 80% minimum)",
       "Renovation expected to increase property NOI by 25% upon completion"
     ],
-    creditMemo: `Policy Alignment: This application meets all requirements under Meridian National Bank's Commercial Lending Policy (Rev. 2025-Q4). While the applicant carries a more complex existing debt structure, overall leverage remains within acceptable parameters for seasoned commercial real estate operators.
+    creditMemo: `Policy Alignment: This application meets all requirements under Fed Aura Capital's Commercial Lending Policy (Rev. 2025-Q4). While the applicant carries a more complex existing debt structure, overall leverage remains within acceptable parameters for seasoned commercial real estate operators.
 
 Financial Health: Cornerstone Property Management has maintained stable cash flows over 22 years of continuous operations. Portfolio occupancy rates average 91%, above the regional market average of 84%. Operating margins of 15.0% reflect disciplined property management. The projected DSCR of 1.8x after the renovation loan provides adequate coverage. The renovation scope—HVAC modernization, lobby renovation, and fiber connectivity upgrades—is projected to increase the property's NOI by 25% and extend competitive positioning by 10+ years.
 
@@ -189,7 +189,7 @@ Market Position: The Portland commercial office market shows early recovery sign
 
 Recommendation: Approve. Experienced operator with strong track record, adequate collateral, and sound renovation thesis. Suggested terms: Prime + 1.75%, 5-year term, draw schedule tied to renovation milestones.`,
     ragSources: [
-      "Meridian National Bank Commercial Lending Policy v2025-Q4 (Sections 2.1, 3.3, 5.1)",
+      "Fed Aura Capital Commercial Lending Policy v2025-Q4 (Sections 2.1, 3.3, 5.1)",
       "Cornerstone Property Management Financial Statements — FY2023-FY2025",
       "CBRE Portland Office Market Report Q4 2025",
       "Multnomah County Property Tax Assessment Records 2025",
@@ -224,7 +224,7 @@ Recommendation: Approve. Experienced operator with strong track record, adequate
       "Insufficient collateral coverage: collateral covers only 62% of loan value (minimum 80% required)",
       "Owner credit score of 640 falls below the 680 minimum for loans exceeding $1M"
     ],
-    creditMemo: `Policy Alignment Analysis: This application has been evaluated against Meridian National Bank's Commercial Lending Policy (Rev. 2025-Q4). The following policy violations were identified:
+    creditMemo: `Policy Alignment Analysis: This application has been evaluated against Fed Aura Capital's Commercial Lending Policy (Rev. 2025-Q4). The following policy violations were identified:
 
 1. Section 4.2.1 — Debt Service Coverage: The applicant's projected debt service coverage ratio (DSCR) of 0.94x falls below the minimum required DSCR of 1.25x for commercial loans in the hospitality/food service sector. This indicates the business may not generate sufficient cash flow to service the proposed debt.
 
@@ -238,7 +238,7 @@ Market Context: The casual dining segment has experienced elevated stress in the
 
 Recommendation: Decline. The combination of insufficient cash flow coverage, below-threshold collateral, deteriorating financial performance, and adverse sector conditions presents unacceptable credit risk under current bank policy guidelines.`,
     ragSources: [
-      "Meridian National Bank Commercial Lending Policy v2025-Q4 (Sections 2.3, 3.1, 4.2)",
+      "Fed Aura Capital Commercial Lending Policy v2025-Q4 (Sections 2.3, 3.1, 4.2)",
       "Bella Cucina Restaurant Group Tax Returns — FY2023-FY2025",
       "Bella Cucina Quarterly Financial Statements — Q1-Q4 2025",
       "Industry Risk Report — National Restaurant Association, Q4 2025",
@@ -272,7 +272,7 @@ Recommendation: Decline. The combination of insufficient cash flow coverage, bel
       "Collateral coverage at 12.7% of loan value (critically below 80% minimum)",
       "Owner credit score of 665 below 680 minimum for commercial lending"
     ],
-    creditMemo: `Policy Alignment Analysis: This application has been evaluated against Meridian National Bank's Commercial Lending Policy (Rev. 2025-Q4). Multiple critical policy violations were identified:
+    creditMemo: `Policy Alignment Analysis: This application has been evaluated against Fed Aura Capital's Commercial Lending Policy (Rev. 2025-Q4). Multiple critical policy violations were identified:
 
 1. Section 2.1.2 — Operating History: The applicant's 3-year operating history falls below the minimum 5-year threshold required for unsecured commercial loans exceeding $500,000. This requirement exists to ensure adequate track record for reliable cash flow projection.
 
@@ -286,7 +286,7 @@ Market Context: The digital marketing agency sector faces increasing commoditiza
 
 Recommendation: Decline. The application fails to meet minimum thresholds across multiple critical lending criteria. The combination of operating losses, insufficient operating history, negligible collateral, and unfavorable market dynamics presents a risk profile that falls outside bank lending parameters.`,
     ragSources: [
-      "Meridian National Bank Commercial Lending Policy v2025-Q4 (Sections 2.1, 2.3, 3.1, 3.2, 4.2)",
+      "Fed Aura Capital Commercial Lending Policy v2025-Q4 (Sections 2.1, 2.3, 3.1, 3.2, 4.2)",
       "TrendVibe Social Media Agency Tax Returns — FY2023-FY2025",
       "TrendVibe Bank Statements — January-December 2025",
       "IBISWorld — Digital Advertising Agencies Industry Report 2025",
@@ -320,7 +320,7 @@ Recommendation: Decline. The application fails to meet minimum thresholds across
       "Second location expansion increases operational complexity and execution risk",
       "Existing debt obligations total $1.52M with $420K maturing within 18 months"
     ],
-    creditMemo: `Policy Alignment Analysis: This application has been evaluated against Meridian National Bank's Commercial Lending Policy (Rev. 2025-Q4). The following policy concerns were identified:
+    creditMemo: `Policy Alignment Analysis: This application has been evaluated against Fed Aura Capital's Commercial Lending Policy (Rev. 2025-Q4). The following policy concerns were identified:
 
 1. Section 4.1.2 — Leverage Ratio: The applicant's debt-to-income ratio of 3.9x exceeds the maximum allowable leverage of 3.5x per bank policy. Including the proposed loan, total debt obligations would reach $3.32M against annual net income of $155,000, resulting in a leverage ratio that falls outside acceptable risk parameters.
 
@@ -332,7 +332,7 @@ Market Context: The automotive repair sector faces moderate headwinds from the i
 
 Recommendation: Decline. While the applicant has a solid 14-year operating track record, the combination of above-threshold leverage, insufficient collateral coverage, and thin operating margins does not support the requested loan amount. The applicant may wish to consider a reduced loan amount of $1.2M or less, which could potentially meet collateral and leverage requirements with restructured terms.`,
     ragSources: [
-      "Meridian National Bank Commercial Lending Policy v2025-Q4 (Sections 3.1, 4.1, 4.2)",
+      "Fed Aura Capital Commercial Lending Policy v2025-Q4 (Sections 3.1, 4.1, 4.2)",
       "Ironclad Auto Body & Paint Tax Returns — FY2023-FY2025",
       "Ironclad Auto Body & Paint Property Appraisal — January 2026",
       "IBISWorld — Auto Body Shops Industry Report 2025",
